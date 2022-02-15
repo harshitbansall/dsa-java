@@ -14,22 +14,36 @@
 }
 ```
 ## Question 2 - Hollow Rectangle
+<img src="Resources/2.png" align="left" width="280"></img>
 ```java
 public class Lecture5Question2 {
     public static void main(String[] args) {
         int columns = 10;
         int rows = 10;
-
         for (int i = 1; i <= rows; i++) {
             for (int k = 1; k <= columns; k++) {
-                if (i == 1 || i == rows || k == 1 || k == columns) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+                if (i == 1 || i == rows || k == 1 || k == columns) 
+                {System.out.print("*");} 
+                else {System.out.print(" ");}
             }
             System.out.println();
         }
     }
+}
+```
+## Question 3 - Half Pyramid
+<img src="Resources/3.png" align="left" width="280"></img>
+```java
+public class Lecture5Question3 {
+    public static void main(String[] args) {
+        int totalRows = 10;
+        for (int row = 1; row <= totalRows; row ++ ){
+            for (int column = 1; column <= row; column++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    
 }
 ```
