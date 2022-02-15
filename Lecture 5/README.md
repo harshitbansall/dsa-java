@@ -59,7 +59,7 @@ public class Lecture5Question4 {
 }
 ```
 ## Question 5 - Inverted Half Pyramid Rotated by 180 Degrees
-<img src="Resources/4.png" align="left" width="280"></img>
+<img src="Resources/5.png" align="left" width="280"></img>
 ```java
 public class Lecture5Question5 {
     public static void main(String[] args) {
