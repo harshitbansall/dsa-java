@@ -1,5 +1,6 @@
 # [Lecture 5](https://www.youtube.com/watch?v=GjHNGM7KN3w&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=5)
 ## Question 1 - Solid Rectangle
+<img src="Resources/1.png" align="left" width="280"></img>
 ```java
   public class Lecture5Question1 {
     public static void main(String[] args) {
