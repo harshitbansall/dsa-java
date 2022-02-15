@@ -47,3 +47,34 @@ public class Lecture5Question3 {
     
 }
 ```
+## Question 4 - Inverted Half Pyramid
+<img src="Resources/4.png" align="left" width="280"></img>
+```java
+public class Lecture5Question4 {
+    public static void main(String[] args) {
+        int totalRows = 10;
+        for (int row = totalRows; row >= 1; row -- ){
+            for (int column = 1; column <= row; column++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+## Question 5 - Inverted Half Pyramid Rotated by 180 Degrees
+<img src="Resources/4.png" align="left" width="280"></img>
+```java
+public class Lecture5Question5 {
+    public static void main(String[] args) {
+        int totalRows = 10;
+        for (int row = 0; row <= totalRows-1; row ++ ){
+            for (int column = 0; column <= totalRows-1; column++){
+                if (column >= totalRows-1-row){System.out.print("*");}
+                else{System.out.print(" ");}
+            }
+            System.out.println();
+        }
+    }
+}
+```
