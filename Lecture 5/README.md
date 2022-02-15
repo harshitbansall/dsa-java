@@ -24,12 +24,8 @@ public class Lecture5Question2 {
             for (int k = 1; k <= columns; k++) {
                 if (i == 1 || i == rows || k == 1 || k == columns) 
                 {System.out.print("*");} 
-                else {System.out.print(" ");}
-            }
-            System.out.println();
-        }
-    }
-}
+                else {System.out.print(" ");}}
+            System.out.println();}}}
 ```
 ## Question 3 - Half Pyramid
 <img src="Resources/3.png" align="left" width="280"></img>
