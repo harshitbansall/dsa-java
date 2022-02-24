@@ -16,10 +16,7 @@ public class Lecture6Question10 {
             System.out.println();
             if (row == half){reverse = true;}
             if (reverse == true){row--;}
-            else{row++;}
-        }
-    }
-}
+            else{row++;}}}}
 ```
 ## Question 11 - Solid Rhombus
 <img src="Resources/11.png" align="left" width="280"></img>
@@ -30,16 +27,9 @@ public class Lecture6Question11 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = 1; j <= n; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-    }
-}
+            for (int j = 1; j <= n - i; j++) {System.out.print(" ");}
+            for (int j = 1; j <= n; j++) {System.out.print("*");}
+            System.out.println();}}}
 ```
 ## Question 12 - Number Pyramid
 <img src="Resources/12.png" align="left" width="280"></img>
@@ -75,10 +65,7 @@ public class Lecture6Question13 {
             for(int j=1; j<=n-i; j++) {System.out.print(" ");}
             for(int j=i; j>=1; j--) {System.out.print(j);}
             for(int j=2; j<=i; j++) {System.out.print(j);}
-            System.out.println();
-        }
-    }
-}
+            System.out.println();}}}
 ```
 ## Question 13 - Palindromic Pattern
 <img src="Resources/14.png" align="left" width="280"></img>
